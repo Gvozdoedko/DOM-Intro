@@ -1,7 +1,7 @@
 function main() {
-    let input = document.body.children[2].children[0];
-    let button = document.body.children[2].children[1];
-    let span = document.body.children[2].children[2];
+    let input = document.getElementById("input_text");
+    let button = document.getElementById("button");
+    let span = document.getElementById("answer");
 
     button.onclick = function () {
         let textFromUser = document.getElementById("input_text").value;
